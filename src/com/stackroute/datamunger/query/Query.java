@@ -17,6 +17,7 @@ public class Query {
 	 * CsvQueryProcessor, which can work with select queries containing zero, one or
 	 * multiple conditions
 	 */
+	@SuppressWarnings("rawtypes")
 	public HashMap executeQuery(String queryString) throws FileNotFoundException {
 	
 		/* instantiate QueryParser class */
